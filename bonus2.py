@@ -7,13 +7,13 @@ counter = 0
 guess = ''
 randNum = randint(1, 10)
 
-#logic 
+# logic 
 while counter < 5:
     guess = int(input("Guess a number between 1 and 10: "))
     if guess == randNum:
-        print("You won!")
+        print("You won! :)")
         break
     if guess != randNum:
-        print("Wrong.")
+        print("Wrong. :(")
     counter += 1
-print("Run the program to play again")
+print("Run the program to play again. :D")
