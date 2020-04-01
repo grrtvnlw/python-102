@@ -5,11 +5,11 @@ from random import randint
 # variables for loop counter, guess, and random number
 counter = 0
 guess = ''
-randNum = randint(1, 10)
+randNum = randint(0, 10)
 
 # logic 
 while counter < 5:
-    guess = int(input("Guess a number between 1 and 10: "))
+    guess = int(input("Guess a number between 0 and 10: "))
     if guess == randNum:
         print("You won! :)")
         break
