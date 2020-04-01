@@ -1,5 +1,5 @@
 # get temperature from user in Celsius
-tempC = int(input('Temperature in C? '))
+tempC = float(input('Temperature in C? '))
 
 #convert Celsius to Fahrenheit
 tempF = tempC * (9 / 5) + 32
