@@ -14,6 +14,6 @@ while counter < 5:
         print("You won!")
         break
     if guess != randNum:
-        print("Wrong.  Guess again.")
+        print("Wrong.")
     counter += 1
 print("Run the program to play again")
