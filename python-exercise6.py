@@ -1,8 +1,8 @@
 # get temperature from user in Celsius
-tempC = float(input('Temperature in C? '))
+temp_C = float(input('Temperature in C? '))
 
 #convert Celsius to Fahrenheit
-tempF = tempC * (9 / 5) + 32
+temp_F = temp_C * (9 / 5) + 32
 
 #display temperature in Fahrenheit
-print(f'{tempF} F')
+print(f'{temp_F} F')
